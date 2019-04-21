@@ -5,7 +5,7 @@ def guessing():
     isrunning = 1
     while isrunning:
         number_guessing += 1
-        print("Hi human guess a number 1-100! \nYour Trial is " + str(number_guessing))
+        print("Hi human guess a number 1-100! \nYour Trial is {}".format(number_guessing))
         guess = int(input())
         
         if guess > randNum:
